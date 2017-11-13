@@ -11,5 +11,7 @@ import { HttpClient } from '@angular/common/http';
 export class AppComponent {
   title = 'app';
   readonly ROOT_URL = "";
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {
+
+  }
 }
